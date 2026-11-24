@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilo Silva | Editor de Vídeo</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="fonte/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <style>
+        html { scroll-behavior: smooth; }
+        section[id], div[id] { scroll-margin-top: 70px; }
+
+        .hero {
+            background: linear-gradient(135deg, #0d1117 0%, #1b2a49 100%);
+            color: #fff;
+            padding: 6rem 0;
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-line {
+            width: 60px;
+            height: 4px;
+            background: #0d6efd;
+            border-radius: 2px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .hover-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+        }
+
+        .icon-circle {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <div class="container">
+
+        <a class="navbar-brand" href="#inicio">
+            <i class="fa-solid fa-film"></i> Meu Portfólio
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSite"
+            aria-controls="navbarSite"
+            aria-expanded="false"
+            aria-label="Abrir menu">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#perfil">Meu Perfil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#programa">Programa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#videos">Meus Vídeos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<header class="hero text-center" id="inicio">
+    <div class="container">
+
+        <span class="badge rounded-pill text-bg-primary mb-3 px-3 py-2">
+            <i class="fa-solid fa-clapperboard"></i> Editor de vídeo em formação
+        </span>
+
+        <h1 class="display-4 fw-bold mb-3">
+            Olá, eu sou Danilo Silva!
+        </h1>
+
+        <p class="lead mb-4 mx-auto" style="max-width: 640px;">
+            Estou aprendendo edição de vídeo com muita dedicação
+            e evoluindo a cada projeto.
+        </p>
+
+        <a href="#videos" class="btn btn-primary btn-lg me-2 mb-2">
+            <i class="fa-solid fa-play"></i> Ver meus vídeos
+        </a>
+
+        <a href="#contato" class="btn btn-outline-light btn-lg mb-2">
+            <i class="fa-solid fa-envelope"></i> Entrar em contato
+        </a>
+
+    </div>
+</header>
+
+
+<section class="container my-5 py-4" id="perfil">
+
+    <h2 class="section-title text-center">Meu Perfil</h2>
+    <div class="section-line"></div>
+
+    <div class="row">
+
+        <div class="col-md-10 col-lg-8 mx-auto">
+
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4 p-md-5">
+
+                    <p>
+                        Sou apaixonado por edição de vídeo e estou sempre
+                        aprendendo. Cada projeto novo é uma chance de
+                        descobrir uma técnica diferente e fazer meu
+                        trabalho ficar melhor que o anterior.
+                    </p>
+
+                    <p>
+                        Ainda estou no começo da jornada, mas levo a
+                        edição a sério: estudo, pratico sempre que posso
+                        e aprendo com cada erro. Os trabalhos que mostro
+                        aqui são projetos de estudo, como o trailer de
+                        documentário sobre aviões, e refletem o meu
+                        esforço para evoluir.
+                    </p>
+
+                    <p class="mb-0">
+                        Meu objetivo é desenvolver meu próprio estilo e
+                        transmitir emoção e ritmo através dos meus vídeos.
+                        Sou dedicado, curioso e aberto a feedbacks, porque
+                        acredito que é assim que a gente cresce.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="bg-light py-5" id="programa">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+
+                <img src="img/1.png"
+                     class="img-fluid"
+                     alt="Logo DaVinci Resolve"
+                     style="max-width: 200px;">
+
+            </div>
+
+            <div class="col-md-8">
+
+                <h2 class="section-title">DaVinci Resolve</h2>
+
+                <p>
+                    O DaVinci Resolve é um programa profissional
+                    de edição de vídeo, utilizado na produção
+                    audiovisual, cinema e criação de conteúdo.
+                </p>
+
+                <p>
+                    O software oferece ferramentas de edição,
+                    efeitos visuais, correção de cores e tratamento
+                    de áudio, reunindo diversas funções em uma
+                    única plataforma.
+                </p>
+
+                <div class="alert alert-success mb-0">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <strong>Um grande diferencial:</strong>
+                    o DaVinci Resolve possui uma versão gratuita,
+                    que disponibiliza diversas ferramentas
+                    profissionais sem a necessidade de assinatura.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="container my-5 py-4" id="videos">
+
+    <h2 class="section-title text-center">Meus Vídeos</h2>
+    <div class="section-line"></div>
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm hover-card">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/NUZ7kSOLAUg"
+                        title="Trailer documentário aviões"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Trailer documentário aviões</h5>
+                    <p class="card-text text-secondary">Nesse vídeo trabalhei em um trailer sobre aviões.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm hover-card">
+                <div class="ratio ratio-16x9">
+                    <!-- Troque o ID abaixo pelo ID do seu próximo vídeo (parte depois de v=) -->
+                    <iframe src="https://www.youtube.com/embed/NUZ7kSOLAUg"
+                        title="Nome do vídeo"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Nome do vídeo</h5>
+                    <p class="card-text text-secondary">Uma breve descrição sobre esse trabalho.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="bg-light py-5" id="contato">
+    <div class="container text-center">
+
+        <h2 class="section-title">Contato</h2>
+        <div class="section-line"></div>
+
+        <p class="mb-4">
+            Aqui está a forma de entrar em contato comigo.
+        </p>
+
+        <div class="card border-0 shadow-sm mx-auto" style="max-width: 480px;">
+            <div class="card-body p-4">
+
+                <h5 class="card-title">Danilo Silva</h5>
+
+                <a class="btn btn-primary" href="mailto:danilosilva7202@gmail.com">
+                    danilosilva7202@gmail.com
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="bg-dark text-white-50 text-center py-4">
+    <div class="container">
+        <small>&copy; 2026 Danilo Silva. Todos os direitos reservados.</small>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
